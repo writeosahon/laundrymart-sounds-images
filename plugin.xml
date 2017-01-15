@@ -3,6 +3,7 @@
 
     <name>LaundryMart Sounds and Images</name> 
     <description>Adds custom sounds and images to Laundry Mart Notifications</description> 
+    <author>Utopia Software</author>	
     <license>MIT</license> 
 
     <engines> 
@@ -12,8 +13,16 @@
     <!-- android --> 
     <platform name="android">
         
-        <!-- Export Custom Notification Sound File -->
+        <!-- Export Custom Notification Sound file -->
         <resource-file src="src/android/sounds/extended_ringtone.mp3" target="res/raw/extended_ringtone.mp3" />
+
+	<!-- Export Custom Image Icon files -->
+	<!-- Export Custom image for default app icon -->
+        <resource-file src="src/android/custom_icons/drawable-mdpi/message_icon.png" target="res/drawable-mdpi/message_icon.png" />
+        <resource-file src="src/android/custom_icons/drawable-hdpi/message_icon.png" target="res/drawable-hdpi/message_icon.png" />
+        <resource-file src="src/android/custom_icons/drawable-xhdpi/message_icon.png" target="res/drawable-xhdpi/message_icon.png" />
+        <resource-file src="src/android/custom_icons/drawable-xxhdpi/message_icon.png" target="res/drawable-xxhdpi/message_icon.png" />
+<resource-file src="src/android/custom_icons/drawable-xxxhdpi/message_icon.png" target="res/drawable-xxxhdpi/message_icon.png" />                
                 
     </platform>  
     
