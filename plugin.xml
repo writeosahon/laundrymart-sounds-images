@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="laundrymart-sounds-images" version="1.0.0"> 
+
+    <name>LaundryMart Sounds and Images</name> 
+    <description>Adds custom sounds and images to Laundry Mart Notifications</description> 
+    <license>MIT</license> 
+
+    <engines> 
+        <engine name="cordova" version=">=3.0.0" /> 
+    </engines>  
+
+    <!-- android --> 
+    <platform name="android">
+        
+        <!-- Export Custom Notification Sound File -->
+        <resource-file src="src/android/sounds/extended-ringtone.mp3" target="res/raw/extended-ringtone.mp3" />
+                
+    </platform>  
+    
+</plugin>
