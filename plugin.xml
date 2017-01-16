@@ -22,7 +22,7 @@
         <resource-file src="src/android/custom_icons/drawable-hdpi/message_icon.png" target="res/drawable-hdpi/message_icon.png" />
         <resource-file src="src/android/custom_icons/drawable-xhdpi/message_icon.png" target="res/drawable-xhdpi/message_icon.png" />
         <resource-file src="src/android/custom_icons/drawable-xxhdpi/message_icon.png" target="res/drawable-xxhdpi/message_icon.png" />
-<resource-file src="src/android/custom_icons/drawable-xxxhdpi/message_icon.png" target="res/drawable-xxxhdpi/message_icon.png" />                
+<resource-file src="src/android/custom_icons/drawable-xxxhdpi/message_icon_lg.png" target="res/drawable-xxxhdpi/message_icon_lg.png" />                
                 
     </platform>  
     
